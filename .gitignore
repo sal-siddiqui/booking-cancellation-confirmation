@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+*.egg-info/
+*.dist-info/
+
+# Flask-specific
+instance/
+*.log
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter kernel and metadata files
+*.ipynb~ 
+*.pyc
+
+# MacOS and general OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode and PyCharm settings (if using)
+.vscode/
+.idea/
+
+# Other files
+reference.ipynb
